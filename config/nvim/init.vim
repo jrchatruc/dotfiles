@@ -32,6 +32,9 @@ call plug#end()
 
 let g:deoplete#enable_at_startup = 1
 
+" High update time for gitgutter
+set updatetime=100
+
 " VSCode dark+ color theme
 colorscheme codedark
 
@@ -46,11 +49,12 @@ syntax on
 let g:fzf_preview_window = []
 
 " Key remappings
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-b> :NERDTreeToggle<CR>
 nnoremap W :w<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
 nnoremap <silent> <C-p> :Files<CR>
 nnoremap S :%s/
+nnoremap F <C-w>w
 
 " Automatically close brackets/parentheses/etc
 inoremap " ""<left>
