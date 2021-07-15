@@ -1,0 +1,10 @@
+[user]
+	name = Javier Chatruc
+	email = jrchatruc@gmail.com
+[core]
+	excludesfile = /Users/javier/.gitignore_global
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldHighlight = red bold 52
+	newHighlight = green bold 22
