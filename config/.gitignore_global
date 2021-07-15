@@ -1,0 +1,6 @@
+.envrc
+.elixir_ls
+.DS_Store
+.ipynb_checkpoints/
+tags
+.vscode
