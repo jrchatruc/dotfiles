@@ -1,0 +1,74 @@
+{
+    "search.exclude": {
+      "**/node_modules": true,
+    },
+    "editor.cursorStyle": "block",
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+    },
+    "[python]": {
+      "editor.formatOnSave": true,
+      // "python.formatting.provider": "yapf",
+      "editor.insertSpaces": true,
+      "editor.defaultFormatter": "ms-python.python",
+    },
+    "editor.columnSelection": false,
+    "window.restoreFullscreen": true,
+    "[elixir]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    // "[html-eex]": {
+    //     "editor.formatOnSave": true,
+    //     "editor.tabSize": 2,
+    //     "editor.defaultFormatter": "HookyQR.beautify"
+    //   },
+    //   "files.associations": {
+    //     "*.eex": "html-eex",
+    //     "*.leex": "html-eex"
+    //   },
+    //   "beautify.language": {
+    //     "js": {
+    //       "type": ["javascript", "json", "jsonc"],
+    //       "filename": [".jshintrc", ".jsbeautifyrc"]
+    //     },
+    //     "css": ["css", "less", "scss"],
+    //     "html": ["htm", "html", "html-eex"]
+    //   },
+    "editor.minimap.enabled": false,
+    "terminal.integrated.commandsToSkipShell": [
+      "language-julia.interrupt"
+    ],
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "[html-eex]": "html",
+      "html-eex": "html"
+    },
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnSave": true,
+    "todo-tree.general.tags": [
+      "BUG",
+      "HACK",
+      "FIXME",
+      "TODO",
+      "XXX",
+      "[ ]",
+      "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "notebook.cellToolbarLocation": {
+      "default": "right",
+      "jupyter-notebook": "left"
+    },
+    "C_Cpp.formatting": "clangFormat",
+    "files.insertFinalNewline": true,
+    "editor.fontSize": 14
+  }
