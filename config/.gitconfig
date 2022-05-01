@@ -2,9 +2,14 @@
 	name = Javier Chatruc
 	email = jrchatruc@gmail.com
 [core]
-	excludesfile = /Users/javier/.gitignore_global
+	excludesfile = /Users/lambda/.gitignore_global
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [color]
 	ui = true
 [color "diff-highlight"]
 	oldHighlight = red bold 52
 	newHighlight = green bold 22
+[merge]
+	conflictStyle = diff3
+[interactive]
+	diffFilter = diff-so-fancy --patch

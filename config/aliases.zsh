@@ -9,7 +9,7 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 # git
 alias g='git'
 alias gs='git status'
-alias gd='git diff --color | diff-so-fancy | less'
+alias gd='git diff --color'
 alias gst='git stash'
 alias gl='git --no-pager log --pretty=oneline --abbrev-commit -n 15'
 alias gc='git commit'
