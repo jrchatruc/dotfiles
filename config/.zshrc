@@ -13,6 +13,8 @@ export PATH="$HOME/.local/bin/:$PATH"
 export SDKROOT="$(xcrun --sdk macosx --show-sdk-path)"
 #export PATH="/usr/local/opt/erlang@22/bin:$PATH"
 
+export FZF_DEFAULT_COMMAND='ag -g ""'
+
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
