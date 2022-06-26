@@ -43,6 +43,10 @@ call plug#end()
 
 let g:deoplete#enable_at_startup = 1
 
+let g:neovide_fullscreen=v:true
+let g:neovide_remember_window_size = v:true
+let g:neovide_cursor_animation_length=0
+
 " High update time for gitgutter
 set updatetime=100
 
@@ -175,3 +179,8 @@ cmp.setup({
 })
 EOF
 
+" Set updatetime for CursorHold
+" 300ms of no cursor movement to trigger CursorHold
+set updatetime=300
+" Show diagnostic popup on cursor hold
+autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false })
