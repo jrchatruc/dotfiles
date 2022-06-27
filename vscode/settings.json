@@ -70,5 +70,6 @@
     },
     "C_Cpp.formatting": "clangFormat",
     "files.insertFinalNewline": true,
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "keyboard.dispatch": "keyCode"
   }
