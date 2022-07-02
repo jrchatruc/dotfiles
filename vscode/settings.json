@@ -1,18 +1,26 @@
 {
+    "vim.handleKeys": {
+      "<C-w>": false,
+      "<C-n>": false,
+      "<C-[b]>": false,
+      "<C-[f]>": false,
+      "<C-q>": false,
+      "<C-b>": false
+    },
     "search.exclude": {
-      "**/node_modules": true,
+      "**/node_modules": true
     },
     "editor.cursorStyle": "block",
     "files.watcherExclude": {
       "**/.git/objects/**": true,
       "**/.git/subtree-cache/**": true,
-      "**/node_modules/**": true,
+      "**/node_modules/**": true
     },
     "[python]": {
       "editor.formatOnSave": true,
       // "python.formatting.provider": "yapf",
       "editor.insertSpaces": true,
-      "editor.defaultFormatter": "ms-python.python",
+      "editor.defaultFormatter": "ms-python.python"
     },
     "editor.columnSelection": false,
     "window.restoreFullscreen": true,
