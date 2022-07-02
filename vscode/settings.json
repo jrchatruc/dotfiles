@@ -5,7 +5,8 @@
       "<C-[b]>": false,
       "<C-[f]>": false,
       "<C-q>": false,
-      "<C-b>": false
+      "<C-b>": false,
+      "<C-k>": false
     },
     "search.exclude": {
       "**/node_modules": true
