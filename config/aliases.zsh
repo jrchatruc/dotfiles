@@ -37,4 +37,7 @@ alias kpf='kubectl port-forward'
 alias bb='kubectl run busybox --image=busybox:1.28 --rm -it --restart=Never --command --'
 alias bcurl='kubectl run busybox-curl --image-radial/busyboxplus:curl -it --rm --restart=Never --command -- curl -s'
 
+# Linux only
 alias co='code . &> /dev/null &'
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
