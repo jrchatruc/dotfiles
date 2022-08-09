@@ -38,7 +38,7 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 eval "$(direnv hook zsh)"
 
-. /usr/local/opt/asdf/asdf.sh
-
 # This is to make fzf respect .gitignore in vim 
 export FZF_DEFAULT_COMMAND='rg --files'
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
