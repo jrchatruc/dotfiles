@@ -8,6 +8,7 @@
       "<C-b>": false,
       "<C-k>": false
     },
+    "vim.useSystemClipboard": true,
     "search.exclude": {
       "**/node_modules": true
     },
