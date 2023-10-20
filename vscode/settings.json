@@ -86,5 +86,12 @@
     "rust-analyzer.inlayHints.renderColons": false,
     "rust-analyzer.inlayHints.typeHints.enable": false,
     "rust-analyzer.inlayHints.chainingHints.enable": false,
-    "rust-analyzer.inlayHints.closingBraceHints.enable": false
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "window.commandCenter": false,
+    "editor.inlayHints.enabled": "off",
+    "clangd.fallbackFlags": [
+      "-I${workspaceFolder}/src",
+      "-I${workspaceFolder}/test"
+    ],
+    "window.zoomLevel": 1
   }
