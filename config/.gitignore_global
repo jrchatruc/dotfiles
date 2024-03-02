@@ -4,5 +4,4 @@
 .ipynb_checkpoints/
 tags
 .vscode
-*.code-workspace
-
+compile_commands.json
