@@ -1,17 +1,16 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 #
 # Executes commands at the start of an interactive session.
 #
 # Authors:
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
-
-export CPATH=`xcrun --show-sdk-path`/usr/include
-#export PATH="$HOME/mybins:$HOME/.local/bin:$HOME/bin:/Users/jrchatruc/anaconda3/bin:/usr/local/sbin:$PATH"
-export PATH="$HOME/flutter/bin:$PATH"
-export PATH="/usr/local/Caskroom/miniconda/base/bin:$PATH"
-export PATH="$HOME/.local/bin/:$PATH"
-export SDKROOT="$(xcrun --sdk macosx --show-sdk-path)"
-#export PATH="/usr/local/opt/erlang@22/bin:$PATH"
 
 export FZF_DEFAULT_COMMAND='ag -g ""'
 
@@ -40,5 +39,3 @@ eval "$(direnv hook zsh)"
 
 # This is to make fzf respect .gitignore in vim 
 export FZF_DEFAULT_COMMAND='rg --files'
-
-. /opt/homebrew/opt/asdf/libexec/asdf.sh

@@ -2,7 +2,7 @@
 	name = Javier Chatruc
 	email = jrchatruc@gmail.com
 [core]
-	excludesfile = /Users/lambda/.gitignore_global
+	excludesfile = /home/void/.gitignore_global
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	editor=vim
 [color]
