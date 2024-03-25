@@ -28,3 +28,4 @@ alias gup='git push'
 # Linux only
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
+alias zed='Zed . &> /dev/null &'
