@@ -29,19 +29,10 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'octol/vim-cpp-enhanced-highlight'
-  if has('nvim')
-    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-  else
-    Plug 'Shougo/deoplete.nvim'
-    Plug 'roxma/nvim-yarp'
-    Plug 'roxma/vim-hug-neovim-rpc'
-  endif
   Plug 'ludovicchabant/vim-gutentags'
   Plug 'slashmili/alchemist.vim'
   Plug 'rhysd/vim-clang-format'
 call plug#end()
-
-let g:deoplete#enable_at_startup = 1
 
 let g:neovide_fullscreen=v:true
 let g:neovide_remember_window_size = v:true
