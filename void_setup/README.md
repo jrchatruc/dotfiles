@@ -6,6 +6,7 @@ After installing Void under user `void`, run:
 sudo xbps-install git
 git clone https://github.com/jrchatruc/dotfiles.git
 cd dotfiles
+git checkout void
 cd void_setup
 ./initial_setup.sh
 sudo reboot
