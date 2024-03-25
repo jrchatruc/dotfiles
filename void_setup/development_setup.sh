@@ -17,10 +17,9 @@ mkdir -p ~/.config/nvim
 sudo xbps-install -y vim firefox alsa-utils alsa-firmware apulse sof-firmware sof-tools
 sudo ln -s /etc/sv/alsa /var/service
 
-git clone https://github.com/jrchatruc/dotfiles.git
 cp ../config/{.gitconfig,.gitignore_global,.psqlrc,.vimrc,.zpreztorc,.zshrc} ~/
 cp ../config/aliases.zsh ~/.config/
 cp ../config/nvim/init.vim ~/.config/nvim/
 
-cp -f i3status.conf /etc/i3status.conf
-cp -f config ~/.config/i3/config
+sudo cp -f i3status.conf /etc/i3status.conf
+sudo cp -f config ~/.config/i3/config
