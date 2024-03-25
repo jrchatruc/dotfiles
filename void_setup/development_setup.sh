@@ -8,7 +8,7 @@ chsh -s $(which zsh)
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 git clone https://github.com/so-fancy/diff-so-fancy.git ~/.config/diff-so-fancy
 
-sudo xbps-install -y eza neofetch neovim ripgrep fzf ctags direnv
+sudo xbps-install -y eza neofetch neovim ripgrep fzf ctags direnv curl
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
 https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
