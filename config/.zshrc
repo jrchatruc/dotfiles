@@ -39,3 +39,5 @@ eval "$(direnv hook zsh)"
 
 # This is to make fzf respect .gitignore in vim 
 export FZF_DEFAULT_COMMAND='rg --files'
+
+export PATH=$PATH:~/.config/diff-so-fancy
