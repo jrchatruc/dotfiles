@@ -5,7 +5,7 @@
 # $> git init --bare $HOME/.dotfiles.git
 # $> dotfiles config --local status.showUntrackedFiles no
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-alias ls='exa'
+alias ls='eza'
 
 # git
 alias g='git'
