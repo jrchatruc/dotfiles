@@ -1,3 +1,4 @@
 keybind = super+right=next_tab
 keybind = super+left=previous_tab
 font-size = 20
+window-inherit-working-directory = false
