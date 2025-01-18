@@ -26,3 +26,8 @@ sed -i '' "s/simple/$(scutil --get LocalHostName)/" flake.nix
 nix run nix-darwin -- switch --flake .
 darwin-rebuild switch --flake .
 ```
+
+# Useful Links
+
+- https://blog.6nok.org/how-i-use-nix-on-macos/
+- https://www.youtube.com/watch?v=Z8BL8mdzWHI
